@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="lv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Programmēšanas ceļi — profesijas</title>
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--muted:#9aa4b2;--accent:#60a5fa}
+    body{font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0; background:linear-gradient(180deg,#071025 0%, #071936 100%); color:#e6eef6}
+    .wrap{max-width:1100px;margin:40px auto;padding:28px}
+    header{display:flex;align-items:center;gap:16px}
+    h1{margin:0;font-size:clamp(20px,3vw,32px)}
+    p.lead{color:var(--muted);margin-top:6px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:20px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.04);padding:16px;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.6)}
+    .card h3{margin:0 0 8px 0;font-size:16px}
+    .card p{margin:0;color:var(--muted);font-size:14px;line-height:1.4}
+    .tags{margin-top:12px;display:flex;flex-wrap:wrap;gap:8px}
+    .tag{background:rgba(96,165,250,0.08);color:var(--accent);padding:6px 8px;border-radius:999px;font-size:12px;border:1px solid rgba(96,165,250,0.12)}
+    footer{margin-top:28px;color:var(--muted);font-size:13px}
+    .controls{display:flex;gap:10px;margin-top:18px}
+    .btn{background:var(--accent);color:#05233b;padding:10px 14px;border-radius:10px;border:none;cursor:pointer;font-weight:600}
+    .btn.ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted)}
+    @media (max-width:520px){.wrap{margin:18px;padding:18px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" aria-hidden>
+        <rect x="3" y="3" width="18" height="18" rx="4" stroke="#60a5fa" stroke-width="1.5"/>
+        <path d="M7 9h10M7 15h10M7 12h10" stroke="#60a5fa" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <div>
+        <h1>Programmēšanas tehniķa karjeras ceļi</h1>
+        <p class="lead">Kopsavilkums par populārākajām programmēšanas un ar to saistītajām tehniķa profesijām — prasmju atslēgas un īss apraksts katrai.</p>
+      </div>
+    </header>
+
+    <div class="controls">
+      <button class="btn" onclick="window.print()">Drukāt šo lapu</button>
+      <a class="btn ghost" href="#list">Pāriet uz sarakstu</a>
+    </div>
+
+    <main id="list" class="grid" role="list">
+      <article class="card" role="listitem">
+        <h3>Front-end izstrādātājs (Front‑end Developer)</h3>
+        <p>Veido lietotāja saskarni — HTML, CSS, JavaScript. Specializējas responsīvā dizainā, piekļuvē un SPA ietvaros (React, Vue, Angular).</p>
+        <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+      </article>
+
+      <article class="card" role="listitem">
+        <h3>Back-end izstrādātājs (Back‑end Developer)</h3>
+        <p>Izstrādā servera loģiku, API, datu bāzes integrācijas un autentifikāciju (Node.js, Python, Java, Ruby, Go utt.).</p>
+        <div class="tags"><span class="tag">API</span><span class="tag">Datubāzes</span><span class="tag">Serveri</span></div>
+      </article>
+
+      <article class="card" role="listitem">
+        <h3>Full‑stack izstrādātājs</h3>
+        <p>Apvieno front‑end un back‑end prasmes — spēj veidot pilnu produktu ceļu no UI līdz datu slānim.</p>
+        <div class="tags"><span class="tag">Front+Back</span><span class="tag">DevOps</span></div>
+      </article>
+
+      <article class="card" role="listitem">
+        <h3>DevOps/Platformas tehniķis</h3>
+        <p>Automatizē izvietošanu, būvē CI/CD caurules un uztur mākoni (Docker, Kubernetes, Terraform, CI rīki).</p>
+        <div class="tags"><span class="tag">CI/CD</span><span class="tag">Kubernetes</span></div>
+      </article>
+
+      <article class="card" role="listitem">
+        <h3>Kvalitātes nodrošināšanas tehniķis (QA Engineer)</h3>
+        <p>Testē programmatūru — manuāli un automātiski; veido testu scenārijus un uztur testu automatizāciju.</p>
+        <div class="tags"><span class="tag">Tests</span><span class="tag">Selenium</span></div>
+      </article>
+
+      <article class="card" role="listitem">
+        <h3>Mobilās lietojumprogrammas izstrādātājs</h3>
+        <p>Izstrādā Android un iOS lietotnes — nativās vai cross‑platform (Kotlin, Swift, React Native, Flutter).</p>
+        <div class="tags"><span class="tag">Android</span><span class="tag">iOS</span></div>
+      </article>
+
+      <article class="card" role="listitem">
+        <h3>Iebūvēto sistēmu (Embedded) tehniķis</h3>
+        <p>Raksta programmatūru mikrokontrolleriem un ierīcēm — C, C++, RTOS, aparatūras piesaistes prasmes.</p>
+        <div class="tags"><span class="tag">C/C++</span><span class="tag">RTOS</span></div>
+      </article>
+
+      <article class="card" role="listitem">
+        <h3>Datu inženieris (Data Engineer)</h3>
+        <p>Veido datu plūsmas, ETL/ELT procesus un datu noliktavas — strādā ar lieliem datiem un pipeline rīkiem.</p>
+        <div class="tags"><span class="tag">ETL</span><span class="tag">Spark</span></div>
+      </article>
+
+      <article class="card" role="listitem">
+        <h3>Mašīnmācīšanās inženieris (ML Engineer)</h3>
+        <p>Traina un izvieto ML modeļus ražošanā; sadarbojas ar datu zinātniekiem un inženieriem.</p>
+        <div class="tags"><span class="tag">Modeli</span><span class="tag">MLOps</span></div>
+      </article>
+
+      <article class="card" role="listitem">
+        <h3>Spēļu izstrādātājs (Game Developer)</h3>
+        <p>Veido spēļu loģiku, fizikas dzinējus un grafiku (Unity, Unreal, C# un C++).</p>
+        <div class="tags"><span class="tag">Unity</span><span class="tag">Unreal</span></div>
+      </article>
+
+      <article class="card" role="listitem">
+        <h3>Kiber‑drošības tehniķis (Security Engineer)</h3>
+        <p>Uzrauga drošību, veic ievainojamību auditus, ievieš aizsardzības un incidentu reaģēšanas procedūras.</p>
+        <div class="tags"><span class="tag">Audits</span><span class="tag">Pentest</span></div>
+      </article>
+
+      <article class="card" role="listitem">
+        <h3>Datubāzu administrators / inženieris (DBA)</h3>
+        <p>Uztur datubāzes, veic optimizāciju, dublējumus un atkopšanu; strādā ar SQL un NoSQL risinājumiem.</p>
+        <div class="tags"><span class="tag">SQL</span><span class="tag">NoSQL</span></div>
+      </article>
+
+      <article class="card" role="listitem">
+        <h3>Automatizācijas inženieris (Automation Engineer)</h3>
+        <p>Veido testēšanas un darbplūsmu automatizāciju, integrē rīkus un uzrauga kvalitāti dziļākā līmenī.</p>
+        <div class="tags"><span class="tag">Scripting</span><span class="tag">Pipelines</span></div>
+      </article>
+
+    </main>
+
+    <footer>
+      <p>Šo failu var izmantot kā izklāstu karjeras plānam, mācību ceļam vai vakances aprakstam. Ja vēlaties, varu pievienot prasmju līmeņus (junior/mid/senior), ieteicamās mācību tēmas vai parauguzdevumus.</p>
+    </footer>
+    <p><a href="index.html">Atpakaļ uz Pirmo Lapu</a></p>
+  </div>
+</body>
+</html>
